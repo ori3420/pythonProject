@@ -1,0 +1,5 @@
+name=str(input("name:"))
+age=int(input("age:"))
+year=int(input("year:"))
+future=int(input("future year:"))
+print(f"{name} will be {future-year+age} in the year {future}")
