@@ -32,16 +32,16 @@
 
 
 7
-day = int(input("day:"))
-month = int(input("month:"))
-year = int(input("year:"))
-if 1<=day<=31 and 1<=month<=12 and 1950<=year<=1999 or 2010<=year<=2020:
-    print(f"{day}/{month}/{year%100}")
-if 2000<=year<=2009:
-    print(f"{day}/{month}/0{year%100}")
-if day<1 or day>31:
-    print("wrong day")
-if month<1 or month>12:
-    print("wrong month")
-if year<1950 or year>2020:
-    print("wrong year")
+# day = int(input("day:"))
+# month = int(input("month:"))
+# year = int(input("year:"))
+# if 1<=day<=31 and 1<=month<=12 and 1950<=year<=1999 or 2010<=year<=2020:
+#     print(f"{day}/{month}/{year%100}")
+# if 2000<=year<=2009:
+#     print(f"{day}/{month}/0{year%100}")
+# if day<1 or day>31:
+#     print("wrong day")
+# if month<1 or month>12:
+#     print("wrong month")
+# if year<1950 or year>2020:
+#     print("wrong year")

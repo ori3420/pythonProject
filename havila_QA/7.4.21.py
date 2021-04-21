@@ -315,19 +315,19 @@
 # print("wrong number!###",counter-1,"numbers from the list are divided by 3 and 7")
 
 
-grade = 0
-grade1 = 0
-sum = 0
-counter = 0
-high = 0
-grade = int(input("please enter number:"))
-grade=grade1
-while grade>=0 and grade<=100:
-    grade = int(input("please enter number:"))
-    sum += grade
-    counter += 1
-    if grade>grade1 and grade>=0 and grade<=100:
-        grade1 = grade
+# grade = 0
+# grade1 = 0
+# sum = 0
+# counter = 0
+# high = 0
+# grade = int(input("please enter number:"))
+# grade=grade1
+# while grade>=0 and grade<=100:
+#     grade = int(input("please enter number:"))
+#     sum += grade
+#     counter += 1
+#     if grade>grade1 and grade>=0 and grade<=100:
+#         grade1 = grade
 
 
 print(f"the highest number is:{grade1}")
